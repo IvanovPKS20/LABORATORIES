@@ -6,7 +6,7 @@ namespace Lab1
 {
     public class Lab1 : ILabs
     {
-        /// <summary>
+         /// <summary> 
         /// Метод демонстрации всех заданий лабораторной работы
         /// </summary>    
         public void Demo()
@@ -20,11 +20,11 @@ namespace Lab1
             Console.WriteLine(p1);
             // задание №2
             Random rnd = new Random();
-            int d = rnd.Next();
-            int e = rnd.Next();
-            double f = Math.Pow(d, 2) + Math.Pow(e, 1 / 3) / (d + e);
-            Console.WriteLine();
-            Console.WriteLine(f);
+                int d = rnd.Next();
+                int e = rnd.Next();
+                    double f = Math.Pow(d, 2) + Math.Pow(e, 1 / 3) / (d + e);
+                    Console.WriteLine();
+                    Console.WriteLine(f);
             // задание №3
             double g = 5.93576;
             int h = (int)g;
@@ -32,22 +32,22 @@ namespace Lab1
             int w = (int)(Math.Floor(g));
             double t = Math.Round(g, 1);
             int y = 5;
-            Console.WriteLine();
-            Console.WriteLine(q);
-            Console.WriteLine();
-            Console.WriteLine(w);
-            Console.WriteLine();
-            Console.WriteLine(t);
-            Console.WriteLine();
-            Console.WriteLine(y++);
-            Console.WriteLine();
-            Console.WriteLine(++y);
-            // задание 4
-            Random rnd1 = new Random();
-            int i = rnd1.Next(0, 1000);
+                Console.WriteLine();
+                Console.WriteLine(q);
+                Console.WriteLine();
+                Console.WriteLine(w);
+                Console.WriteLine();
+                Console.WriteLine(t);
+                Console.WriteLine();
+                Console.WriteLine(y++);
+                Console.WriteLine();
+                Console.WriteLine(++y);
+             // задание 4
+                Random rnd1 = new Random();
+                int i = rnd1.Next(0, 1000);
 
-            Console.WriteLine();
-            Console.WriteLine(i);
+                Console.WriteLine();
+                Console.WriteLine(i);
         }
 
         /// <summary>
